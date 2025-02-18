@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: incorrect order of COPY instructions when installing dependencies.  The original Dockerfile attempts to install dependencies before the requirements.txt file is copied into the image.  The solution demonstrates the correct order, ensuring the requirements file is available during the installation process.
